@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Responsive Portfolio Website</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Hafeezur <span>Rahman.T</span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Service</a>
+            <a href="#testimonials">Project</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="my photo.jpg" alt="">
+        </div>
+
+        <div class="home-content">
+            <h1>Hi, It's <span>Hafeezu</span></h1>
+            <h3 class="text-animation">I'm a <span></span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur earum consectetur sed accusamus doloribus praesentium rem impedit, totam ad vel illo sapiente fugit? Cumque, id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur odio, dolores earum cumque provident officiis aliasrepudiandae.</p>
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://twitter.com/home"><i class='bx bxl-twitter'></i></a>
+            </div>
+
+            <a href="#" class="btn">Hire Me</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3 class="text-animation">
+                <span></span>
+            </h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque iusto obcaecati natus debitis modi officiis tempora reprehenderit autem placeat eaque eum quo, mollitia a enim aliquid maxime doloribus dignissimos.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="about-img">
+            <img src="my photo.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="services" id="services">
+
+        <h2 class="heading">Services</h2>
+
+        <div class="services-container">
+
+            <div class="services-box">
+                <div class="services-info">
+                    <h4>Web Development</h4>
+                    <p>Web development is the art and science of creating websites are functional, visually appealing, and user-friendly. Front-end development dealing with the presentation and interaction layers of a website, using languages like HTML, CSS, and JavaScript.</p>
+                </div>
+            </div>
+            <div class="services-box">
+                <div class="services-info">
+                    <h4>Frontend Development</h4>
+                    <p>
+                        Frontend development is the cornerstone of crafting engaging and intuitive user experiences on the web.  Using languages such as HTML, CSS, and JavaScript, frontend developers breathe life into static designs, making them dynamic and responsive.</p>
+                </div>
+            </div>
+            <div class="services-box">
+                <div class="services-info">
+                    <h4>UI / UX Design</h4>
+                    <p>
+                        UI/UX design is the art and science of creating digital experiences that are not only visually appealing but also intuitive, seamless, and user-centric. User Experience (UX) design, on the other hand, and motivations to optimize the overall experience of using a product.</p>
+                </div>
+            </div>
+            <div class="services-box">
+                <div class="services-info">
+                    <h4>Unit Testing</h4>
+                    <p>Unit testing is a fundamental practice in software development aimed at ensuring the reliability, functionality, and maintainability of code. It involves testing individual units or components of software in isolation to validate that they perform as expected.p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+<!--         
+        <div class="portfolio-container">
+            <div class="portfolio-box" data-sr-id="10" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.2s;">
+                <img src="images/restaurant.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Rio Restaurant</h4>
+                    <p>This is restaurant website this is fully build from html, css &amp; js.</p>
+                   <a href="https://rio-restaurant.netlify.app"> <i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        
+            <div class="portfolio-box" data-sr-id="11" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.2s;">
+                <img src="images/quiz.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Quiz App</h4>
+                    <p>This is quiz website this is api fetched for json and build with html, css &amp; js.</p>
+                   <a href="https://rio-quiz-app.netlify.app/"> <i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        
+            <div class="portfolio-box" data-sr-id="12" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.2s;">
+                <img src="images/music-player.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Music Player</h4>
+                    <p>Music player website it is fully work on api based to fetched the json and play the songs and images.</p>
+                    <a href="https://rio-player-app.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        
+            <div class="portfolio-box" data-sr-id="13" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.2s;">
+                <img src="images/cars.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Rental Cars</h4>
+                    <p>Rental cars website is based on grid for seeking purpose its only frontend website.</p>
+                    <a href="https://razi-car-rental.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div> -->
+        
+            <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit saepe deserunt soluta culpa nemo eligendi
+                accusamus ullam. Dolorum, modi incidunt, ipsum eum aliquam veniam ex dolores, facilis sapiente sed
+                voluptatem.</p> -->
+            <div class="top" id="top">
+                <div class="box" id="qr">
+                    <a href="https://hafeezuqrcode.netlify.app/" target="_blank">
+                    <img src="backimg1.jpeg" alt="">
+                    <p>QR GENERATOR</p>
+                </a>
+                </div>
+                <div class="box" id="quiz">
+                    <a href="https://hafeezuquiz.netlify.app/" target="_blank">
+                        <img src="quiz.jpeg" alt="">
+                        <p>QUIZ</p>
+                    </a>
+                </div>
+                <div class="box" id="foodcart">
+                    <a href="https://hafeezurp.netlify.app/" target="_blank">
+                        <img src="backimg2.jpeg" alt="">
+                        <p>Pizza hunt</p>
+                    </a>
+                </div>
+                <div class="box" id="weather">
+                    <a href="https://hafeezuweatherapp.netlify.app/" target="_blank">
+                        <img src="weather.jpeg" alt="">
+                        <p>WEATHER FORCAST</p>
+                    </a>
+                </div>
+                <div class="box" id="to-do">
+                    <a href="https://hilarious-mousse-72edac.netlify.app/" target="_blank">
+                        <img src="todo.jpeg" alt="">
+                        <p>TO-DO</p>
+                    </a>
+                </div>
+                <div class="box" id="luxcare">
+                    <img src="backimg3.jpeg" alt="">
+                    <a href="https://hafeezu-cars.netlify.app/" target="_blank">
+                    <p>Cars</p>
+                </a> 
+                 </div>
+            </div>
+        </div>
+        </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="socail">
+            <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/"><i class='bx bxl-github'></i></a>
+            <a href="https://www.instagram.com/"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="https://twitter.com/home"><i class='bx bxl-twitter'></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FQA</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <li>
+                <a href="#">About Me</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li>
+                <a href="#">Projects</a>
+            </li>
+        </ul>
+        <p class="copyright"> Hafeez ur Rahman.T | All Right Reserved</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
